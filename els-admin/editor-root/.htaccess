@@ -1,0 +1,20 @@
+
+RewriteEngine on
+
+RewriteRule ^home$ media.php?module=home [L]
+RewriteRule ^logout\.html$ media.php?module=logoutadmin&id=$1 [L]
+RewriteRule ^status-update-list\.html$ media.php?module=statusupdate&id=$1 [L]
+RewriteRule ^berita-list\.html$ media.php?module=daftarberita&id=$1 [L]
+RewriteRule ^edit-berita-(.*)\.html$ media.php?module=editberita&id=$1 [L]
+RewriteRule ^update-berita-(.*)\.html$ media.php?module=updateberita&id=$1 [L]
+RewriteRule ^delete-berita-(.*)\.html$ media.php?module=deleteberita&id=$1 [L]
+RewriteRule ^tambah-berita\.html$ media.php?module=tambahberita&id=$1 [L]
+RewriteRule ^input-berita\.html$ media.php?module=inputberita&id=$1 [L]
+RewriteRule ^list-member\.html$ media.php?module=daftarmember&id=$1 [L]
+RewriteRule ^delete-member-(.*)\.html$ media.php?module=deletemember&id=$1 [L]
+RewriteRule ^tag-berita\.html$ media.php?module=tagberita&id=$1 [L]
+RewriteRule ^edit-tag-(.*)\.html$ media.php?module=edittag&id=$1 [L]
+RewriteRule ^delete-tag-(.*)\.html$ media.php?module=deletetag&id=$1 [L]
+RewriteRule ^tambah-tag\.html$ media.php?module=tambahtag&id=$1 [L]
+RewriteRule ^input-tag\.html$ media.php?module=inputtag&id=$1 [L]
+RewriteRule ^update-tag\.html$ media.php?module=updatetag&id=$1 [L]

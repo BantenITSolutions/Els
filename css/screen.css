@@ -1,0 +1,23 @@
+@charset "utf-8";
+/*
+ * CSS Document
+ * Written by Ryan Yonzon
+ * http://ryan.rawswift.com/
+ */
+ 
+html, body {
+	padding-top:30px;
+	margin-bottom:25px;
+	padding-bottom:10px; /* FF hack: or we'll have double scrollbar showing on the browser */
+
+}
+
+#main_container {
+	width:100%;
+	background-color:#ffffff;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height:100%;	/* this will make sure that the height will extend at the bottom */
+	position:absolute;
+	margin-bottom:10px; /* container div must be absolute, for our fixed bar to work */
+}

@@ -1,0 +1,367 @@
+body{
+background:url(../image/body_bg.jpg);
+background-position:bottom;
+background-repeat:no-repeat;
+background-attachment:fixed;
+margin-top:80px;
+}
+#menu{
+	margin:0 auto;
+	position:fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background:url(../image/greentab.jpg);
+	background-repeat:repeat-x;
+	height:40px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+	text-shadow:2px 2px 2px #999;
+}
+.logo{
+width:200px;
+float:left;
+margin-right:20px;
+}
+ul{
+padding:0px 1px 1px 10px;
+}
+#nav ul{
+	display:block;
+	cursor:pointer;
+	padding-left:20px;
+	margin: 0px;
+}
+#nav li{
+	float:left;
+	list-style-type:none;
+	padding: 11px 9px 11px 9px;
+}
+#nav li a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+#nav li:hover{
+	background:url(../image/hover-greentab.jpg);
+	color:#000000;
+}
+#menubawah {
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background:url(../image/greentab-bottom.jpg);
+	background-repeat:repeat-x;
+	clear: both;
+	height:40px;
+	width:100%;
+	text-shadow:1px 1px 1px #999;
+}
+#menubawah a:link{
+color:#FF3300;
+text-decoration:none;
+}
+#menubawah a:visited{
+color:#FF3300;
+text-decoration:none;
+}
+#menubawah a:hover{
+color:#000000;
+text-decoration:none;
+}
+.clock{
+color:#FFFFFF;
+height:0px;
+padding-top:5px;
+padding-left:0px;
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+#content {
+	margin:0px auto;
+	width:400px;
+}
+#content p {
+	font-size: 75%;
+	line-height: 1.8em;
+	padding-left: 2em;
+}
+table {
+	font-family: Tahoma; 
+	font-size: 8pt;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #999999;
+	border-collapse: collapse;
+	margin: 10px 0px;
+}
+th{
+	color: #FFFFFF;
+	font-size: 7pt;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0.5em;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #969BA5;
+	border-collapse: collapse;
+	background-color: #265180;
+}
+td{
+	padding: 0.5em;
+	vertical-align: top;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #969BA5;
+	border-collapse: collapse;
+}
+input,textarea,select{
+	font-family: Tahoma; 
+	font-size: 12px;
+}
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #666;
+	text-shadow:1px 1px 1px #D2D2D2;
+}
+#judul {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #666;
+	text-shadow:1px 1px 1px #D2D2D2;
+	font-weight:bold;
+}
+#content-admin {
+	margin:0px auto;
+	width:800px;
+}
+#content-admin #kiri a:link {
+color:#FF6600;
+text-decoration:none;
+}
+#content-admin #kiri a:hover {
+color:#00CC00;
+text-decoration:underline;
+}
+#content-admin #kiri a:visited {
+color:#FF6600;
+text-decoration:none;
+}
+#content-admin #kiri a:active {
+color:#00CC00;
+text-decoration:none;
+}
+.menuadmin{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px; 
+color:#000000;
+width:160px;
+height:18px;
+border:1px solid #BDEA5B;
+margin-bottom:2px;
+padding-left:10px;
+}
+.menuadmin a:link {
+	color: #000000;
+	text-decoration: none;
+}
+.menuadmin:visited {
+	text-decoration: none;
+	color: #000000;
+}
+.menuadmin:hover {
+	text-decoration: none;
+	color:#FFFFFF;
+	background-color:#A5D533;
+}
+.menuadmin:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#kanan{
+float:left;
+width:160px;
+}
+#kiri {
+width:600px;
+float:right;
+text-align:justify;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#000000;
+}
+.status{
+	-moz-border-radius:10px;
+	-khtml-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius:12px;
+	
+	border:3px solid #7EB500;
+	
+	padding:8px;
+	padding-bottom:2px;
+	padding-top:2px;
+	width:470px;
+	color:#FFFFFF;
+	font-size:11px;
+	font-family:'Arial',sans-serif;
+}
+ul.statuses{
+	margin:0px;
+	padding:0px;
+}
+
+ul.statuses li {
+	border-bottom:1px dashed #D2DADA;
+	padding:5px 5px 5px 5px;
+	list-style:none;
+	font-size:12px;
+	
+}
+
+ul.statuses li:first-child{
+	border-top:1px dashed #D2DADA;
+}
+
+ul.statuses li:hover {
+	background-color:#E7F9BF;
+}
+.judulberita{
+font-size:13px;
+line-height:140%;
+padding-left:20px;
+color:#666666;
+width:500px;
+font-weight:bold;
+background-image:url(../../image/bg-judul.jpg);
+background-repeat:no-repeat;
+}
+.hapusButton{
+	color:#666666;
+	font-size:12px;
+	height:20px;
+	width:50px;
+	font-weight:bold;
+	padding:2px;
+	margin-left:5px;
+	
+	-moz-border-radius:6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius:6px;
+	
+	border:1px solid #cccccc;
+	background-color:#F1FFCC;
+	
+	cursor:pointer;
+	float:right;
+}
+.hapus:hover{
+	background:#00FF00;
+	border:1px solid #eeeeee;
+	color:#000000;
+	cursor:pointer;
+}
+ul.statuses a img.avatar{
+	float:left;
+	margin-right:20px;
+	border:1px solid #446600;
+}
+.pagingpage{
+	background-color: #fff;
+	width:80px;
+	padding: 2px;
+	margin: 3px 5px 3px 0;
+	border: 1px solid #91CB14;
+	float:left;
+}
+.pagingpage:hover{
+	background-color:#339900;
+	color:#FFFFFF;
+	}
+.pagingpage-select{
+	background-color:#A6D634;
+	width:80px;
+	padding: 2px;
+	margin: 3px 5px 3px 0;
+	border: 1px solid #91CB14;
+	float:left;
+}
+.batas-paging{
+	background-color:#A6D634;
+	width:7px;
+	padding: 2px;
+	margin: 3px 5px 3px 0;
+	border: 1px solid #91CB14;
+	float:left;
+}
+#content:link {
+color:#FF6600;
+text-decoration:none;
+}
+#content:hover {
+color:#00CC00;
+text-decoration:underline;
+}
+#content:visited {
+color:#FF6600;
+text-decoration:none;
+}
+#content:active {
+color:#00CC00;
+text-decoration:none;
+}
+.clear{
+	clear:both;
+}
+#footer{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#999999;
+	text-align: center;
+	clear:both;
+	padding-top:30px;
+	padding-bottom:20px;
+}
+.date{
+	line-height:18px;
+	font-size:12px;
+	color:#999999;
+}
+.menu-button{
+	background-color:#ECE9D8;
+	padding: 2px;
+	border: 1px solid #666666;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+.menu-button:hover{
+	background-color:#99FF00;
+	color:#000000;
+	padding: 2px;
+	border: 1px solid #666666;
+}
+.member-title {
+font-size:13px;
+line-height:140%;
+padding-left:20px;
+color:#666666;
+font-weight:bold;
+background-repeat:no-repeat;
+background-image:url(../image/bg-member-title.jpg);
+}
+.bg-member{
+background-image:url(../image/bg-member.png);
+background-repeat:repeat-x;
+}
+.image {
+	background-color: #fff;
+	padding: 2px;
+	margin: 3px 5px 3px 0;
+	border: 1px solid #91CB14;
+	float: left;
+}

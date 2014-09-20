@@ -1,0 +1,118 @@
+.chatbox {
+	position: fixed;
+	position:expression("absolute");
+	width: 200px;
+	display:none;
+	padding-right:0px;
+}
+
+.chatboxhead {
+	background-color: #ABD943;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+
+	color: #ffffff;
+	border-right:1px solid #BAEE41;
+	border-left:1px solid #BAEE41;
+	border-top:1px solid #BAEE41;
+}
+
+.chatboxblink {
+	background-color:#009900;
+}
+
+.chatboxcontent {
+	font-family: arial,sans-serif;
+	font-size: 11px;
+	color: #333333;
+	height:180px;
+	width:188px;
+	overflow-y:auto;
+	overflow-x:auto;
+	padding:5px;
+	border-left:1px solid #BAEE41;
+	border-right:1px solid #BAEE41;
+	border-bottom:1px solid #BAEE41;
+	background-color: #ffffff;
+	line-height: 1.3em;
+}
+
+.chatboxinput {
+	padding: 3px;
+	background-color: #ffffff;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+}
+
+.chatboxtextarea {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	width: 185px;
+	height:44px;
+	padding:0px 0px 0px 3px;
+	border: 1px solid #BAEE41;
+	margin: 1px;
+	overflow:hidden;
+}
+
+.chatboxtextareaselected {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	border: 2px solid #00CC00;
+	margin:0;
+}
+
+.chatboxmessage {
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:1em;
+}
+
+.chatboxinfo {
+	margin-left:-1em;
+	color:#CCCCCC;
+
+}
+
+.chatboxmessagefrom {
+	margin-left:-1em;
+	font-weight: bold;
+}
+
+.chatboxmessagecontent {
+}
+
+.chatboxoptions {
+	float: right;
+}
+
+.chatboxoptions a {
+	text-decoration: none;
+	color: white;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.chatboxtitle {
+	padding-top:8px;
+	float: left;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.chatboxfoto {
+	float: left;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-bottom:1px;
+	padding-left:1px;
+	padding-top:1px;
+}
+.chatboxtitle a {
+	color:#ffffff;
+	text-decoration:none;
+	}
+.chatboxtitle a:hover{
+	color:#000000;
+	text-decoration:none;
+	}

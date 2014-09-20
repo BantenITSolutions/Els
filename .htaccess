@@ -1,0 +1,56 @@
+
+RewriteEngine on
+
+RewriteRule ^home$ media.php?module=home [L]
+RewriteRule ^berita-(.*)\.html$ media.php?module=detailberita&id=$1 [L]
+RewriteRule ^about-els\.html$ media.php?module=about&id=$1 [L]
+RewriteRule ^semua-berita-teknologi-informasi\.html$ media.php?module=semua-berita&id=$1 [L]
+RewriteRule ^member-els\.html$ media.php?module=semua-member&id=$1 [L]
+RewriteRule ^member-everydaylikesunday-2009(.*)\-9002.html$ media.php?module=detailmember&id=$1 [L]
+RewriteRule ^kategori-(.*)\.html$ media.php?module=detailkategori&id=$1 [L]
+RewriteRule ^hasil-pencarian\.html$ media.php?module=hasilcari&id=$1 [L]
+RewriteRule ^lupa-password\.html$ media.php?module=lupapassword&id=$1 [L]
+RewriteRule ^logout\.html$ media.php?module=logoutmember&id=$1 [L]
+RewriteRule ^hasil-poling\.html$ media.php?module=hasilpoling&id=$1 [L]
+RewriteRule ^gallery-everydaylikesunday\.html$ media.php?module=galleryfoto&id=$1 [L]
+RewriteRule ^art-work-everydaylikesunday\.html$ media.php?module=artworkels&id=$1 [L]
+RewriteRule ^forum-everydaylikesunday\.html$ media.php?module=forumels&id=$1 [L]
+RewriteRule ^lihat-topik-everydaylikesunday-(.*)\.html$ media.php?module=detailtopik&id=$1 [L]
+RewriteRule ^guestbook-everydaylikesunday(.*)\.html$ media.php?module=guestbookels&id=$1 [L]
+RewriteRule ^simpan-guestbook(.*)\.html$ media.php?module=simpanguestbook&id=$1 [L]
+RewriteRule ^simpan-komentar-berita(.*)\.html$ media.php?module=simpankomentar&id=$1 [L]
+RewriteRule ^simpan-komentar-member(.*)\.html$ media.php?module=simpankomentarmember&id=$1 [L]
+RewriteRule ^simpan-komentar-forum(.*)\.html$ media.php?module=simpankomentarforum&id=$1 [L]
+RewriteRule ^simpan-topik-baru(.*)\.html$ media.php?module=simpantopikbaru&id=$1 [L]
+RewriteRule ^register-member-els(.*)\.html$ media.php?module=registermember&id=$1 [L]
+RewriteRule ^gagal-login(.*)\.html$ media.php?module=gagallogin&id=$1 [L]
+RewriteRule ^input-member-baru(.*)\.html$ media.php?module=insertmemberbaru&id=$1 [L]
+RewriteRule ^edit-profil-member(.*)\.html$ media.php?module=editprofil&id=$1 [L]
+RewriteRule ^update-profil-member(.*)\.html$ media.php?module=updateprofil&id=$1 [L]
+RewriteRule ^update-password-member(.*)\.html$ media.php?module=updatepassword&id=$1 [L]
+RewriteRule ^update-foto-profil(.*)\.html$ media.php?module=updatefoto&id=$1 [L]
+RewriteRule ^upload-koleksi-foto(.*)\.html$ media.php?module=uploadkoleksifoto&id=$1 [L]
+RewriteRule ^upload-koleksi-art-work(.*)\.html$ media.php?module=uploadartwork&id=$1 [L]
+RewriteRule ^koleksi-foto-member-(.*)\.html$ media.php?module=koleksifoto&id=$1 [L]
+RewriteRule ^koleksi-art-work-(.*)\.html$ media.php?module=koleksiartwork&id=$1 [L]
+RewriteRule ^simpan-komentar-foto(.*)\.html$ media.php?module=simpankomentarfoto&id=$1 [L]
+RewriteRule ^simpan-komentar-art-work(.*)\.html$ media.php?module=simpankomentarartwork&id=$1 [L]
+RewriteRule ^lihat-notifications-(.*)\.html$ media.php?module=notification&id=$1 [L]
+RewriteRule ^hapus-notifications-(.*)\.html$ media.php?module=hapusnotification&id=$1 [L]
+RewriteRule ^hapus-status-(.*)\.html$ media.php?module=hapusstatus&id=$1 [L]
+RewriteRule ^hapus-komentar-member-(.*)\.html$ media.php?module=hapuskomentarmember&id=$1 [L]
+RewriteRule ^hapus-komentar-foto-(.*)\.html$ media.php?module=hapuskomentarfoto&id=$1 [L]
+RewriteRule ^hapus-koleksi-art-work-(.*)\.html$ media.php?module=hapusartwork&id=$1 [L]
+RewriteRule ^hapus-koleksi-foto-(.*)\.html$ media.php?module=hapuskoleksifoto&id=$1 [L]
+RewriteRule ^tutorial-dan-trik-it\.html$ media.php?module=tutorialtrik&id=$1 [L]
+RewriteRule ^tutorial-(.*)\.html$ media.php?module=detailtutorial&id=$1 [L]
+RewriteRule ^simpan-komentar-tutorial(.*)\.html$ media.php?module=simpankomentartutorial&id=$1 [L]
+RewriteRule ^delete-komentar-(.*)\.html$ media.php?module=deletekomentar&id=$1 [L]
+
+<IfModule mod_rewrite.c> 
+
+RewriteEngine On
+
+RewriteRule ^/?([A-Za-z]+)/?$ salah.php?id=$1 [L]
+
+</IfModule>

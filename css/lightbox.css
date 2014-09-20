@@ -1,0 +1,55 @@
+#lightbox{
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	text-align: center;
+	line-height: 100;
+	}
+
+#lightbox a img{ border: none; }
+
+#outerImageContainer{
+	position:relative;
+	background-color: #BDEA5B;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	}
+
+#imageContainer{
+	padding: 10px;
+	}
+
+#loading{
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	}
+
+#imageDataContainer{
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #BDEA5B;
+	margin: 0 auto;
+	}
+
+
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: center;  padding-bottom: 0.7em;	}	
+		
+#overlay{
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+	}
+
+	
